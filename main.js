@@ -57,14 +57,27 @@
 // reverseString("hello");
 
 // ########################################
-function counterletter(text, letter) {
-  let count = 0;
-  let letters = text.split("");
-  letters.forEach((e) => {
-    if (e === letter) {
-      count++;
-    }
-  });
-  return console.log(count);
-}
-counterletter("hello", "l");
+// 6) عدّاد الأحرف في String
+// صمّم دالة ترجع عدد مرات ظهور حرف معين داخل نص.
+
+// function counterletter(text, letter) {
+//   let count = 0;
+//   let letters = text.split("");
+//   letters.forEach((e) => {
+//     if (e === letter) {
+//       count++;
+//     }
+//   });
+//   return console.log(count);
+// }
+// counterletter("hello", "l");
+
+// ########################################
+
+// 7) إزالة العناصر المكررة من Array
+// function removeRepateArray() {
+//   let numArray = [1, 2, 3, 2, 1];
+//   let num = [...new Set(numArray)];
+//   console.log(num);
+// }
+// removeRepateArray();
